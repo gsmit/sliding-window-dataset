@@ -1,7 +1,7 @@
 [project]
 name = "sliding-window-dataset"
 version = "0.1.0"
-description = "Add your description here"
+description = "A PyTorch dataset that iterates over time series data using a sliding window"
 readme = "README.md"
 authors = [
     { name = "Gijs Smit" }
