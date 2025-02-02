@@ -39,7 +39,7 @@ This will output:
 ```
 
 ## Features
-- 🚀 **Easy Integration**: Seamless integrased with PyTorch's `DataLoader`.
-- 🔄 **Flexible Data Input**: Accepts any sequence type that supports slicing.
-- ⚙️ **Optional Transform**: Supports custom transformations to process data.
-- 🚧 **Error Handling**: Validates inputs to ensure consistent time series.
+- 🚀 Seamlessly integrates with PyTorch's `DataLoader`.
+- 🔄 Accepts any sequence type that supports slicing.
+- ⚙️ Supports custom transformations to process data.
+- 🚧 Validates inputs to ensure consistent time series.
