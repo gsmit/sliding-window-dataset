@@ -1,5 +1,5 @@
 # Sliding Window Dataset
-A minimal Python library for slicing time series data into overlapping sliding windows. Designed as a subclass of PyTorch’s `Dataset`, it seamlessly integrates with your data pipelines and model training routines. Whether you're using lists, NumPy arrays, DataFrames, or other sequence-like data, this dataset converts your time series into training-ready windows with optional transformation on the fly.
+A minimal Python library for slicing time series data into overlapping sliding windows. Designed as a subclass of PyTorch’s `Dataset`, it seamlessly integrates with your data pipelines and model training routines. The dataset supports lists, data frames, arrays, tensors, and any other type of sequence-like data.
 
 ## Installation
 Install by cloning this repository:
@@ -37,9 +37,3 @@ This will output:
 [11, 12, 13]
 [12, 13, 14]
 ```
-
-## Features
-- 🚀 Seamlessly integrates with PyTorch's `DataLoader`.
-- 🔄 Accepts any sequence type that supports slicing.
-- ⚙️ Supports custom transformations to process data.
-- 🚧 Validates inputs to ensure consistent time series.
