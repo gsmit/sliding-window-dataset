@@ -4,12 +4,12 @@ A minimal Python library for slicing time series data into overlapping sliding w
 ## Installation
 Install by cloning this repository:
 ```bash
-git clone https://github.com/yourusername/sliding-window-dataset.git
+https://github.com/gsmit/sliding-window-dataset.git
 cd sliding-window-dataset
 pip install -e .
 ```
 
-## Example Usage
+## Usage
 To create a sliding window dataset, simply run the following:
 
 ```python
